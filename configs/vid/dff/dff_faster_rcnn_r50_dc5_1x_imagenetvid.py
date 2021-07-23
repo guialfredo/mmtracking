@@ -1,6 +1,6 @@
 _base_ = [
     '../../_base_/models/faster_rcnn_r50_dc5.py',
-    '../../_base_/datasets/imagenet_vid_dff_style.py',
+    '../../_base_/datasets/custom_dataset_config.py',
     '../../_base_/default_runtime.py'
 ]
 model = dict(
